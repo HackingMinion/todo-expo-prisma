@@ -64,3 +64,11 @@ Whenever you update your prisma schema , you will have to update your database s
 - Purpose: This command is used to push your current Prisma schema to the database directly. It applies any changes you've made to your schema without creating migration files.
 - Use Case: It’s particularly useful during the development phase when you want to quickly sync your database schema with your Prisma schema without worrying about migration history.
 - Caution: It can overwrite data if your schema changes affect existing tables or columns, so it’s best for early-stage development or prototyping.
+
+### Seeding
+
+Add seed data
+
+```bash
+npx tsx .\scripts\seed-data.ts
+```
